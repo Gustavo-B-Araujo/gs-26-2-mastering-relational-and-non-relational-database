@@ -130,3 +130,12 @@ CREATE TABLE ListaPresenca (
 	data_criacao TIMESTAMP DEFAULT SYSTIMESTAMP,
 	CONSTRAINT uq_lista_presenca UNIQUE (cod_turma_aluno, data_presenca)
 	);
+
+CREATE TABLE HistoricoStatusUsuario (
+	cod NUMBER GENERATED AS IDENTITY PRIMARY KEY,
+	cod_usuario NUMBER NOT NULL,
+	operacao VARCHAR2(6) NOT NULL CHECK (operacao IN ('INSERT', 'UPDATE', 'DELETE')),
+	cod_status_antigo NUMBER,
+	cod_status_novo NUMBER,
+	data_evento TIMESTAMP DEFAULT SYSTIMESTAMP
+	);

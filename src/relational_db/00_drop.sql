@@ -17,3 +17,4 @@ DROP TABLE TipoNota PURGE;
 DROP TABLE TipoCurso PURGE;
 DROP TABLE TipoParentesco PURGE;
 DROP TABLE StatusUsuario PURGE;
+DROP TABLE HistoricoStatusUsuario PURGE;
