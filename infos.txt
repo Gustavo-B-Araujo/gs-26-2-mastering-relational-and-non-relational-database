@@ -1,2 +1,6 @@
+
 Global Solution 2026/2 - Boletim Plus
 Disciplina: Mastering Relational and Non-Relational Database
+
+Gustavo Barrios de Araújo   RM563358
+Phietro Solon Oliveira      RM563842
