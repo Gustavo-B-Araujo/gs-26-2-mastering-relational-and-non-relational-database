@@ -1,3 +1,5 @@
+SET SERVEROUTPUT ON;
+
 DECLARE
     CURSOR c_medias IS
         SELECT pa.nome AS aluno, tc.enumerador AS curso, ROUND(AVG(b.nota), 2) AS media
