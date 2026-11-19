@@ -1,6 +1,9 @@
-
 Global Solution 2026/2 - Boletim Plus
 Disciplina: Mastering Relational and Non-Relational Database
+Truma: 2TDSPW
 
+Repositório: https://github.com/Gustavo-B-Araujo/gs-26-2-mastering-relational-and-non-relational-database
+
+Nome completo               RM
 Gustavo Barrios de Araújo   RM563358
 Phietro Solon Oliveira      RM563842
